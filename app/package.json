@@ -1,0 +1,25 @@
+{
+  "name": "lightsail-proxy",
+  "version": "1.0.0",
+  "description": "proxies requests through aws lightsail for egress cost savings",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oioio-dev/lightsail-proxy.git"
+  },
+  "author": "nicholasbudzban@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oioio-dev/lightsail-proxy/issues"
+  },
+  "homepage": "https://github.com/oioio-dev/lightsail-proxy#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.18"
+  }
+}
